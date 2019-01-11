@@ -1,0 +1,32 @@
+/*Acest fisier de intrare e doar pentru demonstratie */
+/*main intai se vor citi elementele unui ICGrammar, in aceasta ordine:*/
+/*terminalele, separate prin spatii:*/
++ epsilon * ( ) id
+/*neterminalele, separate prin spatii:*/
+E E2 T T2 F
+/*numarul regulilor de productie A -> secventa_de_elemente, n:*/
+8
+/*de n ori, urmatoarea operatie pentru o productie:
+* pe o linie, A, iar pe urmatoarea, elementele secventei, separate prin spatiu
+*/
+E
+T E2
+E2
++ T E2
+E2
+epsilon
+T
+F T2
+T2
+* F T2
+T2
+epsilon
+F
+( E )
+F
+id
+/*simbolul de start:*/
+E
+/*simbolul folosit pentru secventa vida (difera in functie de cum e notat in specificatie):*/
+epsilon
+/*acum se citeste secventa de la tastatura, element cu element, separate prin spatiu; ultimul element este musai $:*/

@@ -1,0 +1,21 @@
++ epsilon * ( ) id
+E E2 T T2 F
+8
+E
+T E2
+E2
++ T E2
+E2
+epsilon
+T
+F T2
+T2
+* F T2
+T2
+epsilon
+F
+( E )
+F
+id
+E
+epsilon
